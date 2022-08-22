@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: azure-devops-agent2
 
 steps:
 - task: Maven@3
